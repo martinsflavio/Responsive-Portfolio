@@ -1,0 +1,243 @@
+/*-------------------------- Global -----------------------------------*/
+body {
+	color: #777777;
+	background-image: url("../images/bPage.png");
+}
+
+.container {
+	width: 960px;
+	margin: auto;
+	height: auto;
+}
+
+h1 { font-size: 36px; }
+h2 { font-size: 28px; }
+h3 { font-size: 20px; }
+
+}
+h1, h2, h3, span {
+	font-family: "Georgia", Times, "Times New Roman", serif;
+}
+
+p, a {
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/*-------------------------- Efects -----------------------------------*/
+
+/* Nav Bar links changing color */
+a:hover { color: #49aaa5; }
+a:active { color: ; }
+
+
+/* re-sizing link images */
+.zoom:hover {
+  height: 70px;
+  width: 70px;
+}
+
+/* borer color portfolio cards */
+.portCard:hover { border: 3px solid #49aaa5; }
+
+/*-------------------------- Header -----------------------------------*/
+
+header {
+	padding-bottom: 80px;
+	background: #ffffff;
+	border-bottom: 2px solid #cccccc;
+}	
+
+#myName {
+	text-align: center;
+	width: auto;
+	padding: 22px;
+	float: left;
+	color: #ffffff;
+	background-color: #4aaaa5;
+}
+
+
+
+/*-------------------- Navigation Bar inside Header ----------------------*/
+
+#divisor {	/* Gray lines in navBar */
+	border: 2px solid #e3e3e3;
+	border-width: 0 2px 0 2px;
+}
+
+.navBar li {
+	padding: 0 8px 0 8px;
+}
+
+
+.navBar {
+	float: right;
+	padding: 30px 0 30px 0;
+}
+
+header li {
+	float: left;
+	display: inline;
+}
+
+header a {
+	color: #777777;
+	text-decoration: none;
+}
+
+/*--------------------Styling Boxes -----------------------------------*/
+
+/* Title Bars */
+.content hr {
+	border: 2px solid #e3e3e3;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.links hr {
+	border: 1px solid #e3e3e3;
+	margin-top: 20px;
+}
+
+/* Boxes Body */
+section {
+	width: auto;
+	height: auto;
+	overflow: auto;
+	padding-top: 35px;
+	padding-bottom:97px;
+}
+
+/* Boxes Content */
+
+.content {
+	width: 588px;
+	height: auto;
+	padding: 30px;
+	float: left;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+}
+
+.linksContainer {
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+
+.imgContainer {
+	width: 75px;
+	height: 85px;
+	float: left;
+}
+
+.imgContainer img {
+	width: 64px;
+	height: 64px;
+}
+
+#myFoto {
+	float: left;
+	margin: 10px 20px 0 0;
+}
+
+.content h2 { color: #49aaa5; }
+
+.content p {
+	line-height: 2;
+	font-size: 16px;
+	color: #777777;
+
+}
+
+.links {
+	width: 230;
+	height: auto;
+	padding: 19px;
+	float: right;
+	text-align: center;
+	color: #4aaaa5;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;	
+}
+
+.links img {
+	margin: 15px 5px 0px 5px;
+}
+
+/*------------------------- Styling footer ----------------------------*/
+
+footer {
+	background-color: #666666;
+	color: #ffffff;
+	/**/text-align: center;
+	border-top: 5px solid #4aaaa5;
+	font-size: 11px;
+	padding:20px 0 20px 0;
+	clear: both;
+/* sticking footer at the bottom of the page */
+	position: fixed;
+    z-index: 100; 
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+} 
+
+
+
+
+
+/*------------------------- Contact page ----------------------------*/
+
+
+input, textarea {
+	font-size: 15px;
+	padding: 10px;
+	width: 95%;
+	border: 1px solid #cccccc;
+}
+
+.contFormBtn {
+	color: #ffffff;
+	background-color: #49aaa5;
+	width: 20%;
+}
+
+/*------------------------- Portfolio page ----------------------------*/
+.portCard span {
+    font-size: 20px;
+    color: white;
+}
+
+.portImage {
+	width: 278px;
+	height: 200px;
+	display: block;
+}
+.portContainer {
+	overflow: auto;
+}
+
+.portTag {
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+	background-color: #49aaa5;
+	padding: 15px 0 15px 0;
+
+
+}
+.left { float: left; }
+.right { float: right; }
+
+.portCard {
+	overflow: auto;
+	position: relative;
+	margin: 15px 0 15px 0;
+	text-align: center;
+	border: 3px solid white;
+}
+
+
+
+
