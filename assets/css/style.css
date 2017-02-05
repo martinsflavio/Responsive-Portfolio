@@ -183,10 +183,6 @@ footer {
     width: 100%;
 } 
 
-
-
-
-
 /*------------------------- Contact page ----------------------------*/
 
 
@@ -219,11 +215,11 @@ input, textarea {
 }
 
 .portTag {
-	position: absolute;
 	width: 100%;
 	bottom: 10px;
 	background-color: #49aaa5;
 	padding: 15px 0 15px 0;
+	position: absolute;
 
 
 }
@@ -232,11 +228,230 @@ input, textarea {
 
 .portCard {
 	overflow: auto;
-	position: relative;
 	margin: 15px 0 15px 0;
-	text-align: center;
 	border: 3px solid white;
+	position: relative;
+	text-align: center;
 }
+
+
+
+/*------------- Media Query ---------------------------*/
+
+
+@media screen and (max-width: 980px) {
+	/*-------------------------- Header -----------------------------------*/
+	.container { width: 100%; }
+	
+	header {
+		overflow: auto;
+		padding: 0;
+	}	
+
+	#myName {
+		overflow: auto;
+		text-align: center;
+		width: auto;
+		float: left;
+	}
+	/*--------------------Styling Boxes -----------------------------------*/
+	
+	/* Boxes Body */
+	section {
+		width: auto;
+		height: auto;
+		overflow: auto;
+		padding-top: 10px;
+		padding-bottom:7px;
+	}
+
+	/* Boxes Content */
+
+	.content {
+		width: 70%;
+		height: auto;
+		padding: 10px;
+		float: left;
+	}
+
+	.imgContainer {
+		float: none;
+		margin-left: 27%;
+	}
+
+
+
+	#myFoto {
+		width: 40%;
+		float: left;
+		margin: 10px 20px 0 0;
+	}
+
+	.content h2 {
+		font-size: 30px;
+	}
+
+	.content p {
+		font-size: 18px;
+	}
+	footer {
+		position: relative;
+	} 
+}
+
+@media screen and (max-width: 768px) {
+	/*-------------------------- Header -----------------------------------*/
+	.container { width: 95%; }
+	
+	header {
+		overflow: auto;
+		padding: 0;
+	}	
+
+	#myName {
+		overflow: auto;
+		text-align: center;
+		width: auto;
+		float: left;
+	}
+	/*--------------------Styling Boxes -----------------------------------*/
+	
+	/* Boxes Body */
+	section {
+		width: auto;
+		height: auto;
+		overflow: auto;
+		padding-top: 10px;
+		padding-bottom:7px;
+	}
+
+	/* Boxes Content */
+
+	.content {
+		width: auto;
+		height: auto;
+		margin-bottom: 20px;
+		float: none;
+	}
+	.links { float: none; }
+
+	.imgContainer {
+		float: left;
+		margin-left: 17%;
+	}
+
+	#myFoto {
+		width: 40%;
+		float: left;
+		margin: 10px 20px 0 0;
+	}
+
+	.content h2 {
+		font-size: 30px;
+	}
+
+	.content p {
+		font-size: 18px;
+	}
+	footer {
+		position: relative;
+	} 
+}
+
+@media screen and (max-width: 640px) {
+	/*-------------------------- Header -----------------------------------*/
+	.container {
+		width: 100%;
+		padding: auto;
+	}
+	
+	header {
+		overflow: auto;
+		padding: 0;
+	}	
+
+	#myName {
+		padding: 2px 0 2px 0;
+		margin: 0;
+		overflow: auto;
+		text-align: center;
+		width: 100%;
+		float: none;
+	}
+
+	.navBar li {
+		padding: 7px;
+		margin-left: 11%;
+	}
+
+
+	.navBar {
+		float: none;
+		padding: 0 0 0 0;
+	}
+	#divisor {	/* Gray lines in navBar */
+		border: none;
+	}
+
+	/*--------------------Styling Boxes -----------------------------------*/
+	
+	img#myFoto {
+		width: 300px;
+	}
+
+	/* Boxes Body */
+	section {
+		width: auto;
+		height: auto;
+		overflow: auto;
+		padding-top: 10px;
+		padding-bottom:7px;
+	}
+
+	/* Boxes Content */
+
+	.content {
+		width: auto;
+		height: auto;
+		margin-bottom: 20px;
+		float: none;
+	}
+	.links { float: none; }
+
+	.imgContainer {
+		float: left;
+		margin-left: 7%;
+	}
+
+	#myFoto {
+		width: 40%;
+		float: left;
+		margin: 10px 20px 0 0;
+	}
+
+	.content h2 {
+		font-size: 30px;
+	}
+
+	.content p {
+		font-size: 18px;
+	}
+	footer {
+		position: relative;
+	} 
+	/*-------positioning portfolio images--------*/
+
+	.portCard {
+		width: 278px;
+		margin-left: 20px;
+
+	}
+	.left { float: none; }
+	.right {float: none; }
+	span { width: 20px }
+}
+
+
 
 
 
